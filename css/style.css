@@ -2,7 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times,serif;
+}
+@font-face {
+    font-family:'Magra';
+    src: url(https://fonts.googleapis.com/css2?family=Magra:wght@400;700&family=Squada+One&display=swap);
+}
+@font-face {
+    font-family:'Signika Negative';
+    src: url(https://fonts.googleapis.com/css2?family=Magra:wght@400;700&family=Signika+Negative:wght@300..700&family=Squada+One&display=swap);
 }
 .logo{
     width: 5rem;
@@ -28,4 +35,15 @@
     padding: 2rem;
     font-size: 1.3rem;
     color:#fff;
+}
+.hero-content{
+    margin-top: 12rem
+}
+
+.quote{
+    font-family: 'Magra';
+    border: yellow 1px solid;
+    max-width: 300px;
+    height: auto;
+    line-height: 40px;
 }
