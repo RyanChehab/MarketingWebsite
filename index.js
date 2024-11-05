@@ -18,3 +18,14 @@ function Floating() {
     });
 }
 })
+
+const burger = document.getElementById('burger-icon')
+const links = document.getElementById('hidden-links')
+
+burger.addEventListener('click', function(){
+    links.style.display = 'block'
+})
+const close = document.getElementById('hidden-links')
+close.addEventListener('click',function(){
+    links.style.display = 'none'
+})
