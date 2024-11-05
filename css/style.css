@@ -238,6 +238,9 @@
 }
 
 /* deliver */
+.deliver{
+    margin-bottom: 4rem;
+}
 .deliver-point{
     margin: 1rem;
     background: #35BBDF;
@@ -248,4 +251,31 @@
     font-family:'Signika Negative';
     text-align: center;
     font-size: 1.4rem;
+}
+.deliver-title{
+    font-family:'Magra';
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+/* partner */
+
+.partner{
+    background: #35BBDF;
+    height: auto;
+}
+.partner-cards{
+    border: yellow solid 1px;
+    padding: 2rem;
+    line-height: 35px;
+    width: 250px;
+    margin: 1rem auto 1rem auto;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.partner-cards>h1{
+    line-height: 30px;
+    margin-bottom: 1.5rem;
 }
