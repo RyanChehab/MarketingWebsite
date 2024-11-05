@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
-    <link rel="" href="">
+    <link rel="icon" href="assets/LG.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,20 +30,57 @@
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
+                <div class="burger-icon" id="burger-icon">
+                    <i class="fas fa-bars" style="font-size: 24px;"></i>
+                </div>
+                <div class="hidden-links" id="hidden-links">
+                    <i class="close fas fa-xmark" id="close-btn"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <hr>
+                        <li><a href="#">About Us</a></li>
+                        <hr>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>              
         <div class="hero-content">
-            <div class="flex align-center gap-1">
+            <div class="flex align-center space-between">
                 <div class="quote">
-                    <h1 style="line-height: 60px;">SEE LIFE FROM A DIFFERENT PERSPECTIVE</h1><br><br>
-                    <p  style="line-height: 40px;">Welcome to isocial Lebanon, the symbol of Quality, Reliability and Success.</p>
+                    <h1>Delivering the best digital marketing for you</h1><br><br>
+                    <p style="line-height: 40px;">The symbol of Quality, Reliability and Success in Lebanon</p>
                 </div>
-                <div class="image flex column align-center">
-                    <img src="/assets/social-media-and-digital-marketing-3d-illustration-free-png.webp" class="hero-image">
-                    <p>Delivering the best digital marketing for you</p>
+                <div class="image">
+                    <img src="/assets/social-media-and-digital-marketing-3d-illustration-free-png.webp" class="hero-image" id="floatingImage">
                 </div>
             </div>
         </div>
-    </hero-section>
+    </div>
+
+    <div class="methodology">
+        <div class="method-container">
+            <div class="method-title">
+                <P>OUR METHODOLOGY</P>
+            </div>
+            <div class="flex wrap">
+                <div>
+                    <img src="assets/method-bg.webp"  class="method-image">
+                </div>
+                <div class="method-cards">
+                    <ul>
+                        <li>
+                            Discovery Phase: We begin with a thorough consultation to understand your business, goals, and challenges, conducting in-depth research into your industry and target audience.
+                        </li>
+                        <li>Strategic Development: We develop a tailored marketing strategy that outlines objectives, key performance indicators (KPIs), and actionable plans based on our findings.</li>
+                        <li>Creative Execution: Our skilled team executes the strategy, focusing on designing visuals, crafting content, and launching advertising campaigns that align with your vision.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
