@@ -189,4 +189,44 @@
     background:url('/assets/parallax.webp') center center/cover no-repeat;
     background-attachment: fixed;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expertise-content{
+    max-width: 700px;
+    background: #000000;
+    opacity: 0.85;
+    height: 300px;
+    border-radius: 10px;
+}
+.expertise-content>p{
+    font-size: 2.5rem;
+    color: #fff;
+    font-family:'Magra';
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+}
+.exp-content>ul>li{
+    color: #fff;
+    font-family:'Signika Negative';
+    padding: 1rem;
+    list-style: none;
+}
+.exp-content{
+    border-right: white 5px solid;
+}
+
+.exp-content2{
+    color: #fff;
+    font-family:'Signika Negative';
+    padding: 1rem;
+    list-style: none;
+}
+.exp-content2>ul>li{
+    color: #fff;
+    font-family:'Signika Negative';
+    padding: 1rem;
+    list-style: none;
 }
