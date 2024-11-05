@@ -230,3 +230,22 @@
     padding: 1rem;
     list-style: none;
 }
+@media(max-width:750px){
+    .expertise-content{
+        height: auto;
+        margin: 0 2rem 0 2rem;
+    }
+}
+
+/* deliver */
+.deliver-point{
+    margin: 1rem;
+    background: #35BBDF;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.deliver-point>p{
+    font-family:'Signika Negative';
+    text-align: center;
+    font-size: 1.4rem;
+}
