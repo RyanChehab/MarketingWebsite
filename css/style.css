@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    background:radial-gradient(circle, #21DADB, #35BBDF, #4D94E6) ;
+    height: 800px;
+    border: 2px yellow solid;
+}
