@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded",function(){
-// Slide in from the left
+
+    // Slide in from the left
 gsap.from("#floatingImage", {
     x: "-100vw",        
     duration: 1.5,      
@@ -19,6 +20,7 @@ function Floating() {
 }
 })
 
+// navbar
 const burger = document.getElementById('burger-icon')
 const links = document.getElementById('hidden-links')
 
