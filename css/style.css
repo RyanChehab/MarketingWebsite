@@ -21,11 +21,12 @@
     background-color: black;
     opacity: 0.8;
     border-radius: 10px;
+    height: 67px;
 }
 .hero-section{
     background:radial-gradient(circle,#35BBDF,#4D94E6,#21DADB) ;
-    height: 800px;
-    padding: 2rem;
+    height: 600px;
+    padding: 1.3rem;
 }
 .nav-links>ul>li{
     list-style: none;
@@ -36,20 +37,48 @@
     font-size: 1.3rem;
     color:#fff;
 }
-.hero-content{
-    border: black 1px solid;
-    margin: 0 auto;
-    max-width: 900px;
-    display: flex;
-    justify-content: center;
+.nav-links>ul>li>a:hover{
+    opacity: 0.5;
 }
-
+.hero-content{
+    margin: 3.5rem auto 0 auto;
+    max-width: 900px;
+}
 .quote{
-    font-family: 'Magra';
-    border: yellow 1px solid;
     max-width: 300px;
     height: auto;
+}
+.quote>h1{
+    font-family: 'Magra';
+    line-height: 60px;
+    font-size: 2.6rem;
+}
+.quote>p{
+    font-family:'Signika Negative';
+    font-size: 1.5rem;
 }
 .hero-image{
     width: 400px;
 }
+.image>p{
+    font-family: 'Magra';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.burger-icon{
+    display: none;
+}
+
+@media(max-width:700px){
+    .nav-links{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+        margin-right: 2rem;
+        background: transparent;
+        color: #fff;
+    }
+}
+
+/* end hero section */
