@@ -137,3 +137,56 @@
 }
 
 /* end hero section */
+
+/* methodology */
+.methodology{
+    background: #000000;
+    height: 600px;
+}
+.method-container{
+    max-width: 1200px;
+    margin: 0 auto 0rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.method-title>p{
+    font-size: 2.5rem;
+    color: #fff;
+    font-family:'Magra';
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+}
+.method-image{
+    height: 400px;
+    width: 400px;
+}
+
+.method-cards{
+    color: #fff;
+    width: 350px;
+    margin-left: 2rem;
+    height: 400px;
+    line-height: 30px;
+    margin-top:2rem;
+}
+.method-cards>ul>li{
+    line-height: 35px;
+    font-size:1.2rem;
+}
+@media(max-width:1181px){
+    .methodology{
+        height: auto;
+    }
+}
+/* end methodology */
+
+/* Expertise */
+.Expertise{
+    background:url('/assets/parallax.webp') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
