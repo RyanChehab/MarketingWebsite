@@ -37,7 +37,11 @@
     color:#fff;
 }
 .hero-content{
-    margin-top: 12rem
+    border: black 1px solid;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote{
@@ -45,5 +49,7 @@
     border: yellow 1px solid;
     max-width: 300px;
     height: auto;
-    line-height: 40px;
+}
+.hero-image{
+    width: 400px;
 }
